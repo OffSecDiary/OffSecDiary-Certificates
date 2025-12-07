@@ -187,6 +187,19 @@ body {
   }
 }
 
+/* BADGE IMAGE STYLING */
+.badge-img {
+  width: 280px;          // bigger badge
+  margin: 20px auto;     // centers the badge
+  display: block;
+  filter: drop-shadow(0 0 10px rgba(255, 0, 0, 0.4));
+}
+
+.details img.badge-img {
+  margin-top: 15px;      // spacing above badge
+}
+
+
 /* FOOTER FIXED AT BOTTOM ALWAYS */
 .osd-footer {
   background: #131418;
