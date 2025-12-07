@@ -210,8 +210,14 @@
              </div>`;
         } else {
           let formatted = Object.entries(info)
+            .filter(([k, v]) => k !== "badge_image") 
             .map(([k, v]) => `<p><strong>${k.toUpperCase()}:</strong> ${v}</p>`)
             .join("");
+
+          // Add badge image if present
+          if (info.badge_image) {
+            formatted += `<img src="${info.badge_image}" class="badge-img">`;
+          }
 
           resultsBox.innerHTML =
             `<div class='valid'>
