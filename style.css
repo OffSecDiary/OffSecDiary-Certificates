@@ -161,6 +161,18 @@ body {
   color: #8b8b8b;
 }
 
+/* BADGE IMAGE STYLING */
+.badge-img {
+  width: 280px;
+  margin: 20px auto;
+  display: block;
+  filter: drop-shadow(0 0 10px rgba(255, 0, 0, 0.4));
+}
+
+.details img.badge-img {
+  margin-top: 15px;
+}
+
 /* FOOTER FIXED AT BOTTOM ALWAYS */
 .osd-footer {
   background: #131418;
