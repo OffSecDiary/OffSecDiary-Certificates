@@ -105,8 +105,9 @@ All JSON files follow a clean structured format:
 For verification issues or corporate validation requests:
 
 **Email:** [offsecdiary@gmail.com](mailto:offsecdiary@gmail.com)
-**Website:** [https://offsecdiary.com](https://offsecdiary.com)
+**Support Email:** [support@offsecdiary.com](mailto:support@offsecdiary.com)
 **Instagram:** @offsecdiary
+**LinkedIn:** OffSecDiary
 
 ---
 
