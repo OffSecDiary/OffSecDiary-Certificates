@@ -63,6 +63,11 @@ offsecdiary-certificates/
 ├── style.css / style.scss
 ├── logo.png
 │
+├── images/
+│     └── badges/
+│           ├── 1st.png
+│           ├── 2nd.png
+│           └── 3rd.png
 ├── data/
 │   ├── ctf_participation.json
 │   ├── ctf_winners.json
