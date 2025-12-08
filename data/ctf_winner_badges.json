@@ -10,7 +10,7 @@
   },
 
   "OFSD-CTF-BDG-25-3748": {
-    "name": "Suraj Kumar",
+    "name": "Suraj",
     "position": "2nd Rank",
     "event": "OFSD Open Offensive CTF Challenge",
     "event_date": "29 November 2025",
@@ -20,7 +20,7 @@
   },
 
   "OFSD-CTF-BDG-25-1584": {
-    "name": "Parth Dabgar",
+    "name": "Parth",
     "position": "3rd Rank",
     "event": "OFSD Open Offensive CTF Challenge",
     "event_date": "29 November 2025",
@@ -29,3 +29,4 @@
     "badge_image": "images/badges/3rd.png"
   }
 }
+
