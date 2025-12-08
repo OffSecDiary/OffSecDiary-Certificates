@@ -9,7 +9,7 @@
   },
 
   "OFSD-CTF-WIN-25-3748": {
-    "name": "Suraj Kumar",
+    "name": "Suraj",
     "position": "2nd Rank",
     "certificate_type": "CTF Winner Certificate",
     "event": "OFSD Open Offensive CTF Challenge 2025",
@@ -18,7 +18,7 @@
   },
 
   "OFSD-CTF-WIN-25-1584": {
-    "name": "Parth Dagbar",
+    "name": "Parth",
     "position": "3rd Rank",
     "certificate_type": "CTF Winner Certificate",
     "event": "OFSD Open Offensive CTF Challenge 2025",
@@ -26,3 +26,4 @@
     "issued_by": "OffSecDiary"
   }
 }
+
