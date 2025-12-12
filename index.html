@@ -33,8 +33,9 @@
         <button class="event-btn" data-target="ctf-win">🏆 CTF Winners</button>
         <button class="event-btn" data-target="ctf-badge">🎖 CTF Winner Badges</button>
         <button class="event-btn" data-target="intern-cert">💼 Internship Certificates</button>
-        <button class="event-btn" data-target="guest-cert">🎤 Guest Speakers </button>
+        <button class="event-btn" data-target="guest-cert">🎤 Guest Speakers</button>
         <button class="event-btn" data-target="sr-cert">⭐ Special Recognition</button>
+        <button class="event-btn" data-target="cadet-badge">🎓 Cadet Domain Badges</button>
 
       </div>
     </section>
@@ -45,7 +46,7 @@
       <!-- TEMPLATE OF PANEL -->
       <div class="verify-wrapper hidden" id="ctf-part">
         <h3>CTF Participation Verification</h3>
-        <p class="subtitle">Enter certificate ID printed on top-left of the certificate.</p>
+        <p class="subtitle">Enter Certificate ID printed on top-left of the certificate.</p>
 
         <form class="verify-form" data-json="data/ctf_participation.json">
           <input type="text" placeholder="e.g. OFSD-CTF-25-0000" class="cert-input" required>
@@ -58,6 +59,7 @@
       <!-- WINNERS -->
       <div class="verify-wrapper hidden" id="ctf-win">
         <h3>CTF Winners Verification</h3>
+        <p class="subtitle">Enter Certificate ID printed on top-left of the certificate.</p>
 
         <form class="verify-form" data-json="data/ctf_winners.json">
           <input type="text" placeholder="e.g. OFSD-CTF-WIN-25-0000" class="cert-input" required>
@@ -70,6 +72,7 @@
       <!-- BADGES -->
       <div class="verify-wrapper hidden" id="ctf-badge">
         <h3>CTF Winner Badge Verification</h3>
+        <p class="subtitle">Enter Badge ID mentioned in the filename.</p>
 
         <form class="verify-form" data-json="data/ctf_winner_badges.json">
           <input type="text" placeholder="e.g. OFSD-CTF-BDG-25-0000" class="cert-input" required>
@@ -82,6 +85,7 @@
       <!-- INTERNSHIP -->
       <div class="verify-wrapper hidden" id="intern-cert">
         <h3>Internship Certificate Verification</h3>
+        <p class="subtitle">Enter Certificate ID printed on top-left of the certificate.</p>
 
         <form class="verify-form" data-json="data/internship_certificates.json">
           <input type="text" placeholder="e.g. OSD-INT-25-0000" class="cert-input" required>
@@ -94,6 +98,8 @@
       <!-- GUEST -->
       <div class="verify-wrapper hidden" id="guest-cert">
         <h3>Guest Speaker Certificate Verification</h3>
+        <p class="subtitle">Enter Certificate ID printed on top-left of the certificate.</p>
+        
 
         <form class="verify-form" data-json="data/internship_guest_speakers.json">
           <input type="text" placeholder="e.g. OSD-GSP-25-0000" class="cert-input" required>
@@ -106,9 +112,23 @@
       <!-- SPECIAL RECOGNITION -->
       <div class="verify-wrapper hidden" id="sr-cert">
         <h3>Special Recognition Certificate Verification</h3>
+        <p class="subtitle">Enter Certificate ID printed on top-left of the certificate.</p>
 
         <form class="verify-form" data-json="data/internship_special_recognition.json">
           <input type="text" placeholder="e.g. OSD-REC-25-0000" class="cert-input" required>
+          <button type="submit">Verify</button>
+        </form>
+
+        <div class="results"></div>
+      </div>
+
+      <!-- CADET BADGES -->
+      <div class="verify-wrapper hidden" id="cadet-badge">
+        <h3>Cadet Badge Verification</h3>
+        <p class="subtitle">Enter Cadet Number to verify your assigned domain badge.</p>
+
+        <form class="verify-form" data-json="data/cadet_badges.json">
+          <input type="text" placeholder="e.g. OSD-CADET-ID.000" class="cert-input" required>
           <button type="submit">Verify</button>
         </form>
 
