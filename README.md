@@ -67,14 +67,24 @@ offsecdiary-certificates/
 │     └── badges/
 │           ├── 1st.png
 │           ├── 2nd.png
-│           └── 3rd.png
+│           ├── 3rd.png
+│           ├── design.png
+│           ├── operations.png
+│           ├── research.png
+│           ├── sales.png
+│           ├── shadow-corps.png
+│           ├── software.png
+│           ├── ui/ux.png
+│           └── writing.png
 ├── data/
+│   ├── cadets_badges.json
 │   ├── ctf_participation.json
 │   ├── ctf_winners.json
 │   ├── ctf_winner_badges.json
-│   ├── internship_certificates.json
+│   ├── certification.json
 │   ├── guest_speakers.json
 │   ├── recognition_certificates.json
+│   └── shadow_corps_badges.json
 │
 ├── LICENSE
 └── README.md
