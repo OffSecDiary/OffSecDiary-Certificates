@@ -31,10 +31,11 @@
 
         <button class="event-btn" data-target="ctf-part">🕵️‍♂️ CTF Participation</button>
         <button class="event-btn" data-target="ctf-win">🏆 CTF Winners</button>
-        <button class="event-btn" data-target="ctf-badge">🎖 CTF Winner Badges</button>
-        <button class="event-btn" data-target="intern-cert">💼 Internship Certificates</button>
+        <button class="event-btn" data-target="intern-cert">💼 Certifications</button>
         <button class="event-btn" data-target="guest-cert">🎤 Guest Speakers</button>
         <button class="event-btn" data-target="sr-cert">⭐ Special Recognition</button>
+        <button class="event-btn" data-target="ctf-badge">🎖 CTF Winner Badges</button>
+        <button class="event-btn" data-target="shadow-badge">🛡 Shadow Corps Badges</button>
         <button class="event-btn" data-target="cadet-badge">🎓 Cadet Domain Badges</button>
 
       </div>
@@ -123,11 +124,11 @@
       </div>
 
       <!--SHADOW CORPS BADGES -->
-      <div class="verify-wrapper hidden" id="ctf-badge">
+      <div class="verify-wrapper hidden" id="shadowcorps-badge">
         <h3>Shadow Corps Badges</h3>
         <p class="subtitle">Enter Referral ID to verify your shadow corps badge.</p>
 
-        <form class="verify-form" data-json="data/ctf_winner_badges.json">
+        <form class="verify-form" data-json="data/shadow_corps_badges.json">
           <input type="text" placeholder="e.g. OSD-SC-000" class="cert-input" required>
           <button type="submit">Verify</button>
         </form>
@@ -269,6 +270,3 @@
 
 </body>
 </html>
-
-
-
