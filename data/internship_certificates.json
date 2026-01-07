@@ -8,7 +8,7 @@
     "role": "KernelGhost",
     "organization": "OffSecDiary",
     "month_year": "November 2025",
-    "status": "Verified"
+    "status": "Valid"
   },
 
   "OSD-INT-25-5032": {
@@ -20,7 +20,7 @@
     "role": "KernelGhost",
     "organization": "OffSecDiary",
     "month_year": "November 2025",
-    "status": "Verified"
+    "status": "Valid"
   },
 
   "OSD-INT-25-7297": {
@@ -32,7 +32,7 @@
     "role": "KernelGhost",
     "organization": "OffSecDiary",
     "month_year": "November 2025",
-    "status": "Verified"
+    "status": "Valid"
   },
 
   "OSD-INT-25-5947": {
@@ -44,7 +44,7 @@
     "role": "KernelGhost",
     "organization": "OffSecDiary",
     "month_year": "November 2025",
-    "status": "Verified"
+    "status": "Valid"
   },
 
   "OSD-INT-25-4041": {
@@ -56,7 +56,7 @@
     "role": "KernelGhost",
     "organization": "OffSecDiary",
     "month_year": "December 2025",
-    "status": "Verified"
+    "status": "Valid"
   },
 
   "OSD-INT-25-7110": {
@@ -68,7 +68,7 @@
     "role": "KernelGhost",
     "organization": "OffSecDiary",
     "month_year": "December 2025",
-    "status": "Verified"
+    "status": "Valid"
   },
 
   "OSD-INT-25-9481": {
@@ -80,7 +80,7 @@
     "role": "KernelGhost",
     "organization": "OffSecDiary",
     "month_year": "December 2025",
-    "status": "Verified"
+    "status": "Valid"
   },
 
   "OSD-INT-25-2385": {
@@ -92,7 +92,7 @@
     "role": "KernelGhost",
     "organization": "OffSecDiary",
     "month_year": "December 2025",
-    "status": "Verified"
+    "status": "Valid"
   },
 
   "OSD-INT-25-3074": {
@@ -104,7 +104,7 @@
     "role": "KernelGhost",
     "organization": "OffSecDiary",
     "month_year": "December 2025",
-    "status": "Verified"
+    "status": "Valid"
   },
 
   "OSD-INT-25-5293": {
@@ -116,7 +116,7 @@
     "role": "KernelGhost",
     "organization": "OffSecDiary",
     "month_year": "December 2025",
-    "status": "Verified"
+    "status": "Valid"
   },
 
   "OSD-INT-25-3463": {
@@ -128,6 +128,7 @@
     "role": "KernelGhost",
     "organization": "OffSecDiary",
     "month_year": "December 2025",
-    "status": "Verified"
+    "status": "Valid"
   }
 }
+
